@@ -1,3 +1,100 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto",sans-serif;
+  }
+  
+  header{
+    position: absolute;
+    top: 0%;
+    left: 0;
+    padding: 15px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  .logo{
+    width: 8vh;  
+  
+  }
+  
+  header ul{
+    display: flex;
+    gap: 45px;
+    margin-left: 250px;
+  }
+  header ul li{
+    list-style: none;
+  }
+  header ul li a{
+    display: inline-block;
+    color: #333;
+    font-size: 20px; 
+    text-decoration: none;
+    font-family: Poppins, Geneva, Tahoma, sans-serif;
+  
+    
+  }
+  .content{
+  
+    width:100% ;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    margin-top: 22vh;
+  }
+  .content .slogan{
+  margin-left:90px;
+  margin-top: 2.2vh;
+  font-size: 8px;
+  max-width: 30000%;
+  }
+  .content .slogan h2{
+    color: #333;
+    font-weight: 700;
+    font-size: 9em;
+    line-height: 1.4em;
+  }
+  .content .slogan h2 span {
+    color: #FF8000;
+    font-size:   1.2em; 
+    font-weight: 900;
+  
+  }
+  .content .slogan p{
+    color: #333;
+    font-size: 2.7em;
+  }
+  .content .slogan .contact{
+    display: inline-block;
+    font-size: 2em;
+    background: #FF8000;
+    color: #fff;
+    margin-top: 30px;
+    padding: 20px 20px;
+    border-radius: 40px;
+    font-weight: 700;
+    border: #FF8000;
+    text-decoration: none;
+  }
+
+  .imgs .burgir{
+    width: 60vh;
+    margin-right: 14vh;
+    margin-top: 0.5vh;
+  }
+  header h2{
+  color:#FF8000;
+  margin-left:10px;
+  font-size:25px;
+  
+  }
+  .content .slogan .contact:hover{
+    background: #bd6208;
+  }
+
 .WebContainer{
   width: 100%;
   height: auto;
