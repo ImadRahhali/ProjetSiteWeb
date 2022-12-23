@@ -247,3 +247,144 @@
 #scroll-top.active{
   top:calc(100% - 8rem);
 }
+.heading{
+    text-align: center;
+}
+.heading h2{
+    font-family: 'consolas';
+    font-weight: bolder;
+    color: black;
+    text-shadow: 0px 0px 3px orange, 0px 0px 3px orange;
+    font-size: 27px;
+    border: 3px solid black;
+    border-radius: 6px;
+    padding: 4px;
+    box-shadow: 5px 0px 5px orange;
+    background-color: rgb(255, 166, 0);
+}
+.popular-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    
+}
+.dish{
+    position: relative;
+    margin-top: 1.5rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow:0 2px 4px rgb(4 64 54/20%) ;
+    padding: 10px;
+    background-color: orange;
+    
+    
+}
+.dish-img{
+    width: 200px;
+    height: 200px;
+}
+
+.dish-img img{
+    width:100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.dish h2{
+    font-size: 20px;
+    font-family: 'consolas';
+    font-weight: bold;
+}
+.dish span{
+    font-size:15px;
+    font-family: 'consolas';
+}
+.headingm{
+    text-align: center;
+}
+.headingm h2{
+    font-family: 'consolas';
+    font-weight: bolder;
+    color: black;
+    text-shadow: 0px 0px 3px orange, 0px 0px 3px orange;
+    font-size: 27px;
+    border: 3px solid black;
+    border-radius: 6px;
+    padding: 4px;
+    box-shadow: 5px 0px 5px orange;
+    background-color: rgb(255, 166, 0);
+}
+.headingm h3{
+    font-family: 'consolas';
+    font-weight: bolder;
+    color: black;
+    text-shadow: 0px 0px 3px orange, 0px 0px 3px orange;
+    font-size: 25px;
+    border: 3px solid black;
+    border-radius: 6px;
+    padding: 4px;
+    box-shadow: 5px 0px 5px orange;
+    background-color: rgba(255, 166, 0, 0.658);
+}
+.info{
+    width: 300px;
+    background: orange;
+    border-radius: 6px;
+    text-align: center;
+    padding: 0px 15px 15px;
+    visibility:hidden;
+}
+.info h4{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'consolas';
+    
+}
+.infoo{
+    width: 300px;
+    background: orange;
+    border-radius: 6px;
+    text-align: center;
+    padding: 0px 15px 15px;
+    visibility:hidden;
+}
+.infoo h4{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'consolas';
+    
+}
+.infooo{
+    width: 300px;
+    background: orange;
+    border-radius: 6px;
+    text-align: center;
+    padding: 0px 15px 15px;
+    visibility:hidden;
+}
+.infooo h4{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'consolas';
+    
+}
+.info1{
+    width: 300px;
+    background: orange;
+    border-radius: 6px;
+    text-align: center;
+    padding: 0px 15px 15px;
+    visibility:hidden;
+}
+.info1 h4{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'consolas';
+    
+}
+
