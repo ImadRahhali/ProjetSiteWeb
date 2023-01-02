@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <title>INE FOOD-login</title>
+</head>
+<body>
+   <div class="hero">
+    <div class="form-box">
+      <div class="button-box">
+        <div id="btn"></div>
+        <button type="button" class="toggle-btn">Log In</button>
+        <button type="button" class="toggle-btn" onclick="signup()">Sign Up</button>
+
+      </div>
+      <div class="social-icons">
+        <img src="img/fb.png">
+        <img src="img/tw.png">
+        <img src="img/gp.png">
+      </div>
+      <form id="login" class="input-group" method="POST" action="/login">
+        <input type="text" name="email" class="input-field" placeholder="Enter Email" required>
+        <input type="password" name="password" class="input-field" placeholder="Enter Password" required>
+        <input type="checkbox" class="check-box"><span>Remember Password</span>
+        <button type="submit" class="submit-btn">Login</button>
+      </form>
+    </div>
+    
+   </div>
+   <script>
+
+    function signup(){
+      window.location.href = 'http://localhost:3001/signup';   
+    }
+    
+   </script>
+</html>
